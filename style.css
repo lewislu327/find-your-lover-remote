@@ -1,0 +1,24 @@
+.card {
+  padding: 0 25px;
+  margin: 12px 20px;
+  border-radius: 5%;
+}
+.user-name {
+  padding: 0px;
+}
+
+.avatar {
+  overflow: hidden;
+  transform: scale(1, 1);
+  transition: all 0.5s ease-out;
+}
+.avatar:hover {
+  transform: scale(1.1, 1.1);
+  cursor: pointer;
+}
+
+.choose-sex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
